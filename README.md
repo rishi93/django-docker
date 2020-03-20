@@ -15,3 +15,9 @@ Command in this case will be
 ```bash
 python manage.py runserver 0.0.0.0:8000
 ```
+- Additionally, these build and run commands with the port, volumes etc. could be written in a docker-compose file.  
+In which case, to run the container, we use the command  
+```bash
+docker-compose up # To start the cluster
+docker-compose down # To stop the cluster
+```
